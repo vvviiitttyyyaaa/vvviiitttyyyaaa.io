@@ -1,0 +1,70 @@
+@import url('https://	fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	font-family: "Raleway",	sans-serif;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.header{
+	background: url(https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/teaser/large-teaser/DI21_000022656_Lv4_1680x756.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1661955472379.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	right: 0;
+	background: rgba(170, 230, 240,)
+
+}
+.headerContent{
+	position: absolute;
+	color: white;
+	top: 35%;
+	min-width: 100%;
+}
+.headerContent h1{
+	letter-spacing: 15px
+}
+.headerContent p{
+	font-size: 1.5rem;
+}
+.about, .cars, .tradeIn, .products, .team, .contact{
+	padding: 4em;
+}
+.about h1, .cars h1, .tradeIn h1, .products h1, .team h1{
+	padding-bottom: 1.5em;
+}
+.aboutPadding{
+	padding: 0.3em;
+}
+.cars{
+	background: #343a40;
+	color: white;
+}
+.products{
+	background: #343a40;	
+}
+.products h1{
+	color: white;
+}
+.carouselkk{
+	width: 1680px;
+	height: 756px;
+}
+.tradeIn{
+	background: #E5E5E5;
+}
+.team img{
+	border: 5px solid #343a40;
+}
+.personDescription, .contact{
+	background: #343a40;
+	color: white;
+}
+.personDescription span{
+	color: #C0C0C0;
+}
